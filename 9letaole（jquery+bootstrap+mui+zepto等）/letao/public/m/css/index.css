@@ -1,0 +1,59 @@
+/*导航*/
+.ltl_nav{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.ltl_nav a{
+    float: left;
+    width: 33.333%;
+}
+.ltl_nav a img{
+    display: block;
+    width: 100%;
+}
+/*商品*/
+.ltl_product{
+    width: 100%;
+    padding: 0 10px;
+}
+.ltl_product .pro_item{
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+.ltl_product .pro_item:nth-child(2n){
+    margin-left: 4%;
+}
+.ltl_product .pro_item .pro_item_box{
+    width: 100%;
+    min-height: 200px;
+    box-shadow: 0 0 3px #ccc;
+    display: block;
+    text-align: center;
+    padding: 6px 0;
+}
+.ltl_product .pro_item .pro_item_box img{
+    width: 100%;
+    display: block;
+}
+.ltl_product .pro_item .pro_item_box P:first-of-type{
+    padding: 0 10px;
+}
+.ltl_product .pro_item .pro_item_box p:last-of-type{
+    text-align: center;
+}
+.ltl_product .pro_item .pro_item_box .nowPrice{
+    font-size: 12px;
+    color: red;
+}
+.ltl_product .pro_item .pro_item_box .oldPrice{
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.ltl_product .pro_item .pro_item_box .button{
+    background: #006699;
+    color: #FFFFFF;
+}
+

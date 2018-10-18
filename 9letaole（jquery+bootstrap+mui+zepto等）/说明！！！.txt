@@ -1,0 +1,10 @@
+letao里的public的m和MMMadmin文件夹下的内容为自己写的，其他是已有模板！！
+
+m是购物页面，MMMadmin是后台页面内容。
+
+要npm start开启，locahost模式开启，需要连接数据库，数据库内容在docs中，详细说明电商项目中有
+
+http://localhost:3000/m/index.html
+
+http://localhost:3000/MMMadmin/login.html 
+root  123456
